@@ -36,12 +36,15 @@ Raymon Anthony Doane: 3.1% (11,606)
 - The winner of the election was:
 Diana DeGette with the total number of 272,892 votes which is 73.8% of the votes.
 
+
 ## Election Audit Summary
-This script that was written for this election can be a valuable tool to be used for other elections in any precinct with some minor modifications. To give some examples of the changes that needs to be done on the script for different elections I can point to the path that needs to be addressed to open the results and the path that should be used to save the analysis on.
+This script that was written for this election can be a valuable tool to be used for other elections in any precinct with some minor modifications. To give some examples of the changes that needs to be done on the script for different elections I can point to the path that needs to be addressed to open the election results and the path that should be used to save the analysis on.
 For this purpose this line of script needs to be midified based on the location of the designated files:
+
 `file_to_load = os.path.join("Resources", "election_results.csv")`
 `file_to_save = os.path.join("analysis", "election_analysis.txt")`
 
-Additionally, depending on the structure of the CSV file containing the election results, the number of row indexes to get the name of candidates or counties should be changed.
-`candidate_name = row[2]` ` county_name = row[1]`
-This code can be used to audit any size of election data with correct modifications
+Additionally, depending on the structure of the CSV file containing the election results, the number of row indexes to get the name of the candidates or counties should be changed.
+
+`candidate_name = row[2]` `county_name = row[1]`
+This code can be used to audit any size of election dataset with correct modifications in a short amount of time.
