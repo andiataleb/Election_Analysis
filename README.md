@@ -43,6 +43,7 @@ This script that was written for this election can be a valuable tool to be used
 For this purpose this line of script needs to be midified based on the location of the designated files:
 
 `file_to_load = os.path.join("Resources", "election_results.csv")`
+
 `file_to_save = os.path.join("analysis", "election_analysis.txt")`
 
 Additionally, depending on the structure of the CSV file containing the election results, the number of row indexes to get the name of the candidates or counties should be changed.
