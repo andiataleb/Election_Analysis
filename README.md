@@ -48,4 +48,6 @@ For this purpose this line of script needs to be midified based on the location 
 Additionally, depending on the structure of the CSV file containing the election results, the number of row indexes to get the name of the candidates or counties should be changed.
 
 `candidate_name = row[2]` `county_name = row[1]`
+
+
 This code can be used to audit any size of election dataset with correct modifications in a short amount of time.
