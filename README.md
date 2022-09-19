@@ -36,7 +36,7 @@ Raymon Anthony Doane: 3.1% (11,606)
 - The winner of the election was:
 Diana DeGette with the total number of 272,892 votes which is 73.8% of the votes.
 
-![]/Resources/Results.png
+![](/Resources/Results.png)
 
 ## Election Audit Summary
 This script that was written for this election can be a valuable tool to be used for other elections in any precinct with some minor modifications. To give some examples of the changes that needs to be done on the script for different elections I can point to the path that needs to be addressed to open the election results and the path that should be used to save the analysis on.
